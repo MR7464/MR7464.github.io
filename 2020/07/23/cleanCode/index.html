@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>代码整洁 | MR7464</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="为什么要整洁代码 编程就意味着有代码的产出，有代码产出就代表有清晰整洁的代码与糟糕混乱的代码 随着代码混乱的增加，生产力水平急剧下降，于是乎，在赶项目的过程中，往往背负着压力去编写代码，此时更是代码混乱的增加。本应该在一天之内可以完成的部分确是在几天之内才能完成。 在开发过程中，每次往代码里添加新的需求新的代码，并且逐渐成为一个整体的代码，往往在几天或者几小时后已经浑然忘记了当初是怎么写的代码。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="代码整洁">
+<meta property="og:url" content="https://mr7464.github.io/2020/07/23/cleanCode/index.html">
+<meta property="og:site_name" content="MR7464">
+<meta property="og:description" content="为什么要整洁代码 编程就意味着有代码的产出，有代码产出就代表有清晰整洁的代码与糟糕混乱的代码 随着代码混乱的增加，生产力水平急剧下降，于是乎，在赶项目的过程中，往往背负着压力去编写代码，此时更是代码混乱的增加。本应该在一天之内可以完成的部分确是在几天之内才能完成。 在开发过程中，每次往代码里添加新的需求新的代码，并且逐渐成为一个整体的代码，往往在几天或者几小时后已经浑然忘记了当初是怎么写的代码。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-07-23T03:38:35.018Z">
+<meta property="article:modified_time" content="2020-07-23T07:00:39.928Z">
+<meta property="article:author" content="MR7464">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="MR7464" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">MR7464</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://mr7464.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-cleanCode" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/23/cleanCode/" class="article-date">
+  <time datetime="2020-07-23T03:38:35.018Z" itemprop="datePublished">2020-07-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      代码整洁
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="为什么要整洁代码"><a href="#为什么要整洁代码" class="headerlink" title="为什么要整洁代码"></a>为什么要整洁代码</h3><ol>
+<li>编程就意味着有代码的产出，有代码产出就代表有清晰整洁的代码与糟糕混乱的代码</li>
+<li>随着代码混乱的增加，生产力水平急剧下降，于是乎，在赶项目的过程中，往往背负着压力去编写代码，此时更是代码混乱的增加。本应该在一天之内可以完成的部分确是在几天之内才能完成。</li>
+<li>在开发过程中，每次往代码里添加新的需求新的代码，并且逐渐成为一个整体的代码，往往在几天或者几小时后已经浑然忘记了当初是怎么写的代码。</li>
+</ol>
+<h3 id="什么是整洁的代码"><a href="#什么是整洁的代码" class="headerlink" title="什么是整洁的代码"></a>什么是整洁的代码</h3><ol>
+<li>优雅高效，使人愉悦</li>
+<li>直接简单</li>
+<li>可读性强</li>
+</ol>
+<h3 id="怎么才算整洁的代码"><a href="#怎么才算整洁的代码" class="headerlink" title="怎么才算整洁的代码"></a>怎么才算整洁的代码</h3><ul>
+<li>命名<ul>
+<li>选个好名字（不能模糊）</li>
+<li>避免误导（不要使用一些与系统变量相似的词语，1，l，0 ，O）</li>
+<li>做一些有意义的区分（a1, a2….）=&gt; (确定名称)</li>
+<li>使用可以意会的名称（不能瞎起）</li>
+<li>使用可搜索的名称（把代码中常用的字符，摘出来成为一个单独的常量内容）</li>
+<li>类名名词或者名词短语，不应该动词</li>
+<li>方法名因为动词动词短语</li>
+<li>不用双关</li>
+</ul>
+</li>
+<li>函数<ul>
+<li>短小</li>
+<li>只做一件事</li>
+<li>使用switch</li>
+<li>使用描述性名称</li>
+<li>函数参数（零，一， 二）避免三个参数以上的，多出可以使用对象把类型进行包含</li>
+<li>无副作用</li>
+</ul>
+</li>
+<li>注释<ul>
+<li>注释也会说谎，注释并不会优化代码<ul>
+<li>喃喃自语</li>
+<li>多余的注释</li>
+<li>误导性的注释</li>
+<li>循规式注释</li>
+<li>日志式注释</li>
+<li>废话注释</li>
+<li>注释掉的代码</li>
+</ul>
+</li>
+<li>阐释</li>
+<li>警示</li>
+<li>TODO —- Highlight</li>
+</ul>
+</li>
+<li>格式<ul>
+<li>简单的格式</li>
+<li>更清晰的表达层级结构</li>
+<li>短文件比长文件更容易被理解</li>
+<li>变量声明–靠近使用的位置</li>
+<li>实体变量–在类的顶部</li>
+<li>相关函数–调用者在被调用者上面</li>
+<li>概念相关–放在一起</li>
+<li>团队规则</li>
+</ul>
+</li>
+<li>对象和数据结构<ul>
+<li>清晰的数据结构</li>
+</ul>
+</li>
+<li>错误处理<ul>
+<li>错误要有统一的地方存放</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://mr7464.github.io/2020/07/23/cleanCode/" data-id="ckcygrk7d0000gnca42obgvsz" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">七月 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/07/23/cleanCode/">代码整洁</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 MR7464<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
